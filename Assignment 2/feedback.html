@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./feedback.css">
+        <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+        <title>CONTACT ME</title>
+    </head>
+    
+    <h1>FEER<span>MAN</span></h1>
+    
+    <ul class="nav">
+            <li><a href="about_us.html">About</a></li>
+            <li><a href="profession.html">Profession</a></li>
+            <li><a href="photo_Gallery.html">Gallery</a></li>
+            <li><a href="index.html">Home</a></li>
+    </ul>
+
+    
+
+    <body>    
+        <div class="container">
+            <form id="form" action="">
+              <div class="row">
+                <div class="col-25">
+                  <label for="name">Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="name" placeholder="Your name.." onclick="alert('Remember to fill out all of the fields in the form');">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="email">Email</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="email" placeholder="Your email..">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="gender">Gender</label>
+                </div>
+                <div class="col-75">
+                  <select id="gender" >
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                  </select>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="subject">Message</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="subject" placeholder="Write something.." style="height:200px"></textarea>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <input type="submit"value="Submit" onclick="alert('Submitted');">
+              </div>
+            </form>
+          </div>
+
+          
+          
+          <audio id="myAudio" controls>
+            <source src="./images/audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <p>Click the buttons to get or set the volume of the audio player.</p>
+
+          <button onclick="getVolume()" type="button">What is the volume?</button>
+          <button onclick="setHalfVolume()" type="button">Set volume to 0.2</button>
+          <button onclick="setFullVolume()" type="button">Set volume to 1.0</button>
+
+          <script>
+          var x = document.getElementById("myAudio");
+
+          function getVolume() { 
+            alert(x.volume);
+          } 
+
+          function setHalfVolume() { 
+            x.volume = 0.2;
+          }
+            
+          function setFullVolume() { 
+            x.volume = 1.0;
+          } 
+          </script> 
+
+          <div class="clock">
+            <script src="https://cdn.logwork.com/widget/digital.js"></script>
+            <a href="https://logwork.com/current-time-in-kuala-lumpur-malaysia" class="digital-clock" data-style="flip" data-size="900" data-timezone="Asia/Kuala_Lumpur" data-language="en">Kuala Lumpur,  Malaysia</a>
+          </div>
+
+
+          <table class="feedback">
+            <thead>
+            <tr>
+            <th colspan="2">Please leave a feedback or impression for my website</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+            <td><img src="./images/excellent.png"></td><td>Excellent</td></tr>
+            <tr>
+              <td><img src="./images/good.png"></td><td>Good</td></tr>
+            <tr>
+            <td><img src="./images/intermediate.png"></td><td>Intermediate</td></tr>
+            <tr>
+            <td><img src="./images/poor.png"></td><td>Poor</td></tr>
+            </tbody>
+            </tr>
+            </table>
+
+            <div class="icon">
+              <a href="https://www.facebook.com/Original.Feerman"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/feer.man/"><i class="fab fa-instagram"></i></a>
+              <a href="https://twitter.com/feermann"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.youtube.com/channel/UCc3wBkQ8MbinjdoaTup0IUA"><i class="fab fa-youtube"></i></a>
+            </div>
+
+    </body>
+
+
+</html>

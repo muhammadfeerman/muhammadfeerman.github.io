@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ html {
+    font-size: 10px;
+ }
+
+ body { 
+    background: url('./images/ZRV7K2aQ.png');
+    background-position: 0 1000px;
+    font-family: 'Roboto', sans-serif;
+    overflow-y:hidden;
+}
+
+ h1{
+    font-size: 4rem;
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1px;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    transform: translateY(20.7%);
+}
+span{
+    color: grey;
+}
+
+ul{
+    width: auto;
+    float: right;
+    margin-top: 8px;
+    transform: translateY(20.7%);
+}
+
+li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+a{
+    text-align: center;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+    
+}
+
+a:hover{
+    color: grey;
+    transition: 1s;
+    transform: scale(1.005);
+}
+
+.photography {
+    float: left;
+  width: 20.33%;
+  padding: 5px;
+  transform: translateY(-95.7%);
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.photography img:hover {
+    transform: scale(1.15);
+    transition: 1s;
+    color: white;
+}
+
+.text1 {
+    color: whitesmoke;
+   text-align: left;
+   width: 900px;
+   font-size: 2rem;
+   margin-left: 9%;
+   transform: translateY(200.7%);
+   font-family: 'Dosis', sans-serif;
+   transition: 1s;
+}
+
+.img1 {
+    margin-left: 65%;
+    transform: translateY(-39.7%);
+    height: 190px;
+}
+
+.img1 img:hover {
+    transform: scale(1.15);
+    transition: 1s;
+    color: white;
+}
+
+.video1 {
+    margin-left: 66%;
+    transform: translateY(-89.7%);
+    height: 190px;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 2.5rem;
+    position: absolute;
+    padding: 3px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 6.5px;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    transform: translateY(20.7%);
+}
+span{
+    color: grey;
+}
+body {
+    margin: 0;
+    background: url(./images/ZRV7K2aQ.png);
+    background-position: 0 1000px;
+    
+}
+nav {
+    background: none;
+    width: 100%;
+    text-align: center;
+    overflow: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li {
+    float: right;
+}
+nav a{
+    width: 120px;
+    display: block;
+    text-decoration: none;
+    background: none;
+    font-size: 1.2vw;
+    color: white;
+    padding: 35px;
+    font-family: 'Roboto', sans-serif;
+  
+}
+nav a:hover {
+    color: grey;
+    transition: 1s;
+    transform: scale(1.005);
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    background: none;
+    overflow: auto;
+    transform: translateY(4.7%);
+    text-decoration: whitesmoke;
+    transition: 1s;
+}
+.gallery {
+    margin: 5px;
+    border: 0px solid #ccc;
+    float: left;
+    width: 390px;
+}
+.desc {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.gallery img {
+    width: 80%;
+    height: auto;
+    transition: 1s;
+}
+.gallery img:hover {
+    transform: scale(1.15);
+    color: white;
+}
