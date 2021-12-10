@@ -16,7 +16,7 @@
     background: url('./images/ZRV7K2aQ.png');
     background-position: 0 1000px;
     font-family: 'Roboto', sans-serif;
-    
+    overflow-y:hidden;
 }
 
  h1{
